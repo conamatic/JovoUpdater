@@ -34,7 +34,8 @@ namespace JovoUpdater
 
                     if (new Version(Installed.Version) < new Version(Server.Version))
                     {
-                        File.Copy(Config.UpdateFromPath + "Jovo.exe", Config.InstalledPath + "Jovo.exe");
+                        File.Copy(Config.UpdateFromPath + "Jovo.exe", Config.InstalledPath + "Jovo.exe", true);
+                        File.Copy(Config.UpdateFromPath + "manifest.json", Config.InstalledPath + "manifest.json", true);
                     }
                 }
             }
