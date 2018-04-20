@@ -23,6 +23,8 @@ namespace JovoUpdater
             if (!Config.InstalledPath.EndsWith("\\"))
                 Config.InstalledPath += "\\";
 
+            if (!Directory.Exists(Config.InstalledPath))
+                Directory.CreateDirectory(Config.InstalledPath);
 
             if (File.Exists(Config.InstalledPath + "\\manifest.json"))
             {
