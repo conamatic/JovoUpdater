@@ -7,7 +7,7 @@
     <ProjectGuid>{5D65B40A-81DE-4F61-ABDC-98565D67026E}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>JovoUpdater</RootNamespace>
-    <AssemblyName>JovoUpdater</AssemblyName>
+    <AssemblyName>Jovo</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
